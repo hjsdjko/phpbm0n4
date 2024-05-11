@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/yisheng/list",
+    "pages/yisheng/add-or-update",
+    "pages/yisheng/detail",
+    "pages/menzhenxinxi/list",
+    "pages/menzhenxinxi/add-or-update",
+    "pages/menzhenxinxi/detail",
+    "pages/keshifenlei/list",
+    "pages/keshifenlei/add-or-update",
+    "pages/keshifenlei/detail",
+    "pages/yuyueguahao/list",
+    "pages/yuyueguahao/add-or-update",
+    "pages/yuyueguahao/detail",
+    "pages/jianchaxinxi/list",
+    "pages/jianchaxinxi/add-or-update",
+    "pages/jianchaxinxi/detail",
+    "pages/jianchabaogao/list",
+    "pages/jianchabaogao/add-or-update",
+    "pages/jianchabaogao/detail",
+    "pages/binglixinxi/list",
+    "pages/binglixinxi/add-or-update",
+    "pages/binglixinxi/detail",
+    "pages/chufangxinxi/list",
+    "pages/chufangxinxi/add-or-update",
+    "pages/chufangxinxi/detail",
+    "pages/feiyongxinxi/list",
+    "pages/feiyongxinxi/add-or-update",
+    "pages/feiyongxinxi/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的社区门诊管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0000",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
